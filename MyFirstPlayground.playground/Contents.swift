@@ -58,3 +58,5 @@ let bouns = 200
 print("My info: \nmy Salary \(mysalary) \nMy Number is \(mynumber)" )
 
 print("My salary with bouns \(mysalary + Double(bouns))")
+
+print("Done")
