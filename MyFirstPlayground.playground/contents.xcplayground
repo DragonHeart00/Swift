@@ -3,5 +3,6 @@
     <pages>
         <page name='myDictionary'/>
         <page name='FirstPlayground'/>
+        <page name='ifStatement'/>
     </pages>
 </playground>
