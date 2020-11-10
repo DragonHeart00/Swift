@@ -1,4 +1,6 @@
 import UIKit
+
+/*
 //data type
 
 // String and int
@@ -68,3 +70,49 @@ let names = ["Anna", "Alex", "Brian", "Jack"]
 for name in names {
     print("Hello, \(name)!")
 }
+ */
+
+//Array
+
+
+
+var numAarray = [11, 2, 4, 5]
+
+let fitstindex = numAarray[0]
+print("first index: \(fitstindex)")
+
+let x = numAarray.count
+print("count: \(x)")
+
+
+print("\n\n" + "add element")
+//add element
+numAarray.append(33)
+numAarray.append(3)
+numAarray.append(3+33)
+print(numAarray)
+numAarray.append(numAarray[0] + 2)
+
+
+print("\n\n" + "remove element")
+//remove element 3 in index 2
+numAarray.remove(at: 2)
+print(numAarray)
+
+
+print("\n\n" + "sort array")
+//sort array
+numAarray.sort()
+print(numAarray)
+
+
+print("\n\n" + "mix array")
+//mix array
+let myArray: Any = ["Sulaiman", 5, false]
+print(myArray)
+
+
+print("\n\n" + "empty string array")
+//empty string array
+let myEmptyArray = [String]()
+print(myEmptyArray)
