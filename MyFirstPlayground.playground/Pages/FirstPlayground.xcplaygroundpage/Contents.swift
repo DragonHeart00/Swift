@@ -63,13 +63,6 @@ print("My salary with bouns \(mysalary + Double(bouns))")
 
 print("Done")
 
-
-
-print("\n\n" + "for loop")
-let names = ["Anna", "Alex", "Brian", "Jack"]
-for name in names {
-    print("Hello, \(name)!")
-}
  */
 
 //Array

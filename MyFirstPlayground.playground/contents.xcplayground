@@ -4,5 +4,7 @@
         <page name='myDictionary'/>
         <page name='FirstPlayground'/>
         <page name='ifStatement'/>
+        <page name='WhileLoop'/>
+        <page name='ForLoop'/>
     </pages>
 </playground>
