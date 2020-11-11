@@ -6,5 +6,6 @@
         <page name='ifStatement'/>
         <page name='WhileLoop'/>
         <page name='ForLoop'/>
+        <page name='Class and function'/>
     </pages>
 </playground>

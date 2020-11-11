@@ -15,9 +15,10 @@ for name in names {
     print("Hello, \(name)!")
 }
 
-
+/*
 for (key, value ) in numAarray2.enumerated() {
     
     print(numAarray2[key] + 1)
     numAarray2[key] += 1
 }
+ */
