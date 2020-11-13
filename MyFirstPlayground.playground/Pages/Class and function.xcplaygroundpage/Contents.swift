@@ -1,7 +1,7 @@
 import UIKit
 
 
-class Player {
+/*class Player {
     var name = "Sulaiman"
     var age = 24
     var email = "sks@gmail.com"
@@ -61,4 +61,35 @@ print(player2.isWin())
 
 print(player2.playerName(name: "Joe"))
 
+ 
 print(player2.playerAge(myage: 55))
+ 
+
+//return function
+func getName(name: String) -> String{
+    return name
+}
+
+print(getName(name: "Sulaiman"))
+
+
+//calling function
+func showInfo(phonenumber: Int)-> Int{
+    let mynumber = phonenumber
+    return mynumber
+}
+
+print(showInfo(phonenumber: 423212))
+*/
+
+//optional
+//var mynubmer: Int?
+//print(mynubmer)
+
+var mynum = "5"
+let mynum2 = Int(mynum)
+
+var sum = mynum2! + 10
+print(sum)
+
+
